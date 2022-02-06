@@ -1,0 +1,93 @@
+/* Comments */
+/* 
+Version: 2.0;
+last modified: 1/10/2022;
+Author: Niko Papadopoulos;
+Email: Nikopap885@gmail.com
+
+table of contents 
+1. body
+2. wrapper
+3. header
+4. navigation
+5. banner img
+6. main 
+7. footer
+*/
+
+body{
+    background-color: #e6e6d7;
+    color: #191970;
+}
+/* Fonts - font-family, font-variant, font-weight, font-style */
+p{
+    /* font-family: Arial, Helvetica, sans-serif;
+    font-variant: normal;
+    font-weight: normal;
+    font-style: normal;
+    font-size: 16px; Default font size  1em, rem, %, vw, vh  */
+
+
+/* font-shorthand
+font: font-style font-variant font-weight font-size/line height font-family;
+*/
+    font: normal normal normal 16px/1.5 Helvetica;
+/* text- letter-spacing, word-spacing, text-indent, text-shadow, line-height */
+}
+h2{
+    font-size: 4rem;
+    /* text-shadow or box-shadow - horizontal, vertical, blur radius, color */
+    text-shadow: 0 1px 8px rgba(0, 0,0,0.5);
+}
+main{
+    text-shadow: 0 1px 8px rgba(0, 0,0,0.5);
+}
+/* Selectors - element, id, class, contextual, multiple selectors  */
+
+.sideleft{
+    color: #fff;
+    background-color: mediumaquamarine;
+}
+
+#sideright{
+    font-weight: bold;
+
+}
+
+/* contextual selectors */
+nav a{
+    font-weight: bold;
+    color: blue;
+    text-decoration: none;
+}
+
+/* Multiple selectors */
+main, header, footer, nav{
+    display: block;
+}
+
+/* the important rule */
+h3{
+    color: green !important;
+
+}
+.button{
+    background-color: white;
+    color: #05a081;
+}
+
+/* css variables */
+
+:root{
+    --main-color: #05a081;
+    --text-font: Arial;
+    --text-white:#fff;
+}
+h2{
+    color: var(--main-color);
+    background-color: var(--text-white);
+}
+p{
+    background-color: var(--text-white);
+    
+}
